@@ -27,13 +27,14 @@ struct ContentView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width:250, height: 250, alignment: .center)
+                        .cornerRadius(10.0)
                 }
                 
                 .padding(20)
                 
                 HStack (spacing: 40) {
                     VStack {
-                        Text("Virgo's Groove                            ")
+                        Text("VIRGO'S GROOVE                            ")
                             .foregroundColor(.white)
                             .font(.title3)
                             .fontWeight(.bold)
